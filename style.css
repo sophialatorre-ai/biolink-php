@@ -1,0 +1,115 @@
+body {
+background-color: #ffdaf0;
+color: #000000;
+font-family: Arial, sans-serif;
+text-align: center;
+}
+.container {
+max-width: 400px;
+margin: 0 auto;
+padding: 20px;
+}
+.avatar {
+width: 120px;
+border-radius: 50%;
+border: 3px solid black
+}
+.btn {
+display: block;
+background-color: #f08db8;
+color: rgb(0, 0, 0);
+padding: 15px;
+margin: 10px 0;
+text-decoration: none;
+border-radius: 8px;
+transition: 0.3s;
+border: 3px solid rgb(221, 113, 185)
+}
+.btn:hover {
+background-color: #9e2f6c;
+transform: scale(1.02);
+}
+/* DESAFIO: Estilize o botão especial */
+.destaque {
+    background-color: rgb(240, 39, 116);
+}
+
+.area-contato {
+margin-top: 30px;
+border-top: 1px solid #333;
+padding-top: 20px;
+}
+.btn-msg {
+display: inline-block;
+background-color: rgb(255, 63, 136);
+color: rgb(0, 0, 0);
+padding: 10px 20px;
+text-decoration: none;
+border-radius: 5px;
+font-weight: bold;
+transition: 0.3s;
+margin: 5%;
+width: 200px;
+}
+.btn-msg:hover {
+background-color: rgb(255, 63, 136);
+transform: scale(1.1);
+
+}
+
+.campo-texto {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+}
+
+form button {
+    width: 95%;
+    padding: 12px;
+    margin-top: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #00ff88;
+    color: #003311;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+form button:hover {
+    opacity: 0.8;
+}
+
+.btn-voltar {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 8px 20px;
+    border: 1px solid rgba(255,255,255, 0.5);
+    color: rgba(255,255,255, 0.8);
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.btn-voltar:hover {
+    background-color: white;
+    color: black;
+    border-color: white;
+}
+
+.erro {
+    color: #ff4444;
+    background: #330000;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.sucesso {
+    color: #00ff88;
+    background: #003311;
+    padding: 10px;
+    border-radius: 5px;
+}
